@@ -33,7 +33,7 @@ PATH_TO_LABELS = os.path.join('data', 'mscoco_label_map.pbtxt')
 # Number of classes to detect
 NUM_CLASSES = 90
 
-# Download Model
+# Download Model ("Comment these lines if model is installed already to avoid downloading model everytime you run the program")
 
 opener = urllib.request.URLopener()
 opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
